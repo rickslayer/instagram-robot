@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "insta_robots"
+version = "0.1.0"
+description = ""
+authors = ["rickslayer <paulo.rube@madeiramadeira.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+instapy = "^0.6.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
